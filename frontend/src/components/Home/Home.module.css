@@ -1,0 +1,22 @@
+.home {
+  font-family: "Poppins";
+  background-color: #000a29;
+  width: 100%;
+  height: 100vh;
+  padding: 47px 10px 11px 10px;
+}
+
+.home__svg {
+  margin-top: 8%;
+  width: 85%;
+}
+/* pink b41e46 */
+/*orange f99e26*/
+.home__buttons {
+  margin-top: 80%;
+  margin-bottom: 75%;
+}
+
+.home__modal__container {
+  padding: 25px;
+}
