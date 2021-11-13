@@ -7,7 +7,7 @@ import io from "socket.io-client";
 import { Redirect } from "react-router-dom";
 import MuiAlert from "@material-ui/lab/Alert";
 
-const socket = io.connect("http://localhost:4000/");
+const socket = io.connect("https://codecollab-kiit.herokuapp.com/");
 
 const Alert = (props) => {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
